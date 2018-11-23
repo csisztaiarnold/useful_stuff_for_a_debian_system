@@ -62,7 +62,7 @@ MS fonts:
 sudo apt-get install ttf-mscorefonts-installer
 ```
 
-## Additional software
+## Essential software
 
 Note: make sure that if you add new items into "Startup applications", you set them at least 10-15s delay, as some applications won't start before the Cinnamon GUI and some of its deamons are fully loaded.
 
@@ -109,21 +109,41 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E985B27B
 sudo apt-get install infinality
 ```
 
+## Non-essential, but useful software
+
 #### WoeUSB (create your own usb stick windows installer)
 
 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/w/woeusb/
 
 #### Flameshot (powerful yet simple to use screenshot software)
 
-https://github.com/lupoDharkael/flameshot
+```
+sudo apt-get install flameshot
+```
 
 #### GParted (disk partitioning)
 
-https://gparted.org/
+```
+sudo apt-get install gparted
+```
 
 #### Kazam (screencasting program)
 
-https://launchpad.net/kazam
+```
+sudo apt-get install kazam
+```
+
+#### VLC (media player)
+
+```
+sudo apt-get install vlc
+```
+
+#### Deluge (bittorrent client)
+
+```
+sudo apt-get install deluge
+```
 
 ## LEMP/LAMP
 
