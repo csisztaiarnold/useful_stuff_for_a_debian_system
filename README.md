@@ -90,7 +90,6 @@ MINSTOP=hwmon3/device/pwm2=100 hwmon1/device/pwm1=40
 #### Telegram (messenger)
 
 ```
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 36FD5529
 sudo apt-get install telegram
 ```
 
