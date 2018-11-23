@@ -49,7 +49,7 @@ Edit `/etc/fstab`
 /dev/sdb2	/media/username/data	ext4	defaults	0	1
 ```
 
-## Gui/Cinnamon stuff 
+## GUI/Cinnamon stuff 
 
 Theme: __Adapta Nokto Eta__  
 Icons: __[Paper](https://snwh.org/paper)__  
@@ -65,6 +65,12 @@ sudo apt-get install ttf-mscorefonts-installer
 ## Essential software
 
 Note: make sure that if you add new items into "Startup applications", you set them at least 10-15s delay, as some applications won't start before the Cinnamon GUI and some of its deamons are fully loaded.
+
+#### Midnight Commander (visual file manager)
+
+```
+sudo apt-get install mc
+```
 
 #### Tilix (tiling terminal emulator)
 
@@ -99,7 +105,6 @@ sudo apt-get install telegram-desktop
 
 http://www.webupd8.org/2015/12/how-to-change-mouse-scroll-wheel-speed.html
 
-
 #### Infinality (improved font rendering)
 
 https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts
@@ -111,7 +116,7 @@ sudo apt-get install infinality
 
 ## Non-essential, but useful software
 
-#### WoeUSB (create your own usb stick windows installer)
+#### WoeUSB (create your own usb stick Windows installer)
 
 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/w/woeusb/
 
@@ -144,6 +149,14 @@ sudo apt-get install vlc
 ```
 sudo apt-get install deluge
 ```
+
+#### VICE (Commodore emulator)
+
+```
+sudo apt-get install vice
+```
+Since the Debian distribution doesn't contains any ROMs, just download the Windows version from http://vice-emu.sourceforge.net/ and unpack the desired machine folder to ~/.vice
+
 
 ## LEMP/LAMP
 
