@@ -103,7 +103,28 @@ sudo apt-get install telegram-desktop
 
 #### Imwheel (improved mouse-wheel control)
 
-http://www.webupd8.org/2015/12/how-to-change-mouse-scroll-wheel-speed.html
+```
+sudo apt-get install imwheel
+```
+Edit the config:
+```
+sudo nano ~/.imwheelrc
+```
+Paste this into the text file:
+```
+".*"
+None,      Up,   Button4, 3
+None,      Down, Button5, 3
+Control_L, Up,   Control_L|Button4
+Control_L, Down, Control_L|Button5
+Shift_L,   Up,   Shift_L|Button4
+Shift_L,   Down, Shift_L|Button5
+```
+Start `imwheel`:
+```
+imwheel --kill --buttons "4 5"
+```
+Don't forget to add it to the Startup Applications!
 
 #### Infinality (improved font rendering)
 
