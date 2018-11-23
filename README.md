@@ -90,7 +90,7 @@ MINSTOP=hwmon3/device/pwm2=100 hwmon1/device/pwm1=40
 #### Telegram (messenger)
 
 ```
-sudo apt-get install telegram
+sudo apt-get install telegram-desktop
 ```
 
 #### Imwheel (improved mouse-wheel control)
