@@ -8,6 +8,18 @@ nano /etc/sudoers
 ```
 Add `ALL=(ALL:ALL) ALL` to your user.
 
+## Intsall CURL
+
+```
+sudo apt-get install curl
+```
+
+## Install dirmngr (network certificate management service)
+
+```
+sudo apt-get install dirmngr
+```
+
 ## Add additional source lists
 
 /etc/apt/sources.list
@@ -22,7 +34,14 @@ deb http://ppa.launchpad.net/no1wantdthisname/ppa/ubuntu trusty main
 deb-src http://ppa.launchpad.net/no1wantdthisname/ppa/ubuntu trusty main
 ```
 
-## Mount HD on boot
+## Get the public keys in case they're missing after `sudo apt-get update`
+
+```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY
+sudo apt-get update
+```
+
+## Mount a HD on boot
 
 Edit `/etc/fstab`
 
@@ -104,3 +123,7 @@ https://gparted.org/
 #### Kazam (screencasting program)
 
 https://launchpad.net/kazam
+
+## LEMP/LAMP
+
+...todo
