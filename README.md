@@ -54,7 +54,7 @@ Edit `/etc/fstab`
 Theme: __Adapta Nokto Eta__  
 Icons: __[Paper](https://snwh.org/paper)__  
 Fonts: __[Hack](https://github.com/source-foundry/Hack), [Roboto](https://fonts.google.com/specimen/Roboto), [Open Sans](https://fonts.google.com/specimen/Open+Sans), [Cantarrel](https://fonts.google.com/specimen/Cantarell)__  
-Window borders: __Afflatus__  
+Window borders: __[Afflatus](https://www.gnome-look.org/p/1191004/)__  
 Extension: __Custom Shadows__   
 
 MS fonts:
