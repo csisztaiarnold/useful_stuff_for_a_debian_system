@@ -132,7 +132,8 @@ https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-in
 
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E985B27B
-sudo apt-get install infinality
+sudo apt-get update
+sudo apt-get install fontconfig-infinality
 ```
 
 ## Non-essential, but useful software
