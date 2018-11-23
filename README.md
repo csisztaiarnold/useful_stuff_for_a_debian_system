@@ -8,7 +8,7 @@ nano /etc/sudoers
 ```
 Add `ALL=(ALL:ALL) ALL` to your user.
 
-## Intsall CURL
+## Install CURL
 
 ```
 sudo apt-get install curl
