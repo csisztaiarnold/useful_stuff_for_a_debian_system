@@ -53,8 +53,8 @@ Edit `/etc/fstab`
 
 Theme: __Adapta Nokto Eta__  
 Icons: __[Paper](https://snwh.org/paper)__  
-Fonts: __[Hack](https://github.com/source-foundry/Hack), [Roboto](https://fonts.google.com/specimen/Roboto), [Open Sans](https://fonts.google.com/specimen/Open+Sans), [Cantarrel](https://fonts.google.com/specimen/Cantarell)__  
-Window borders: __[Afflatus](https://www.gnome-look.org/p/1191004/)__  
+Fonts: __[Hack](https://github.com/source-foundry/Hack), [Roboto](https://fonts.google.com/specimen/Roboto), [Open Sans](https://fonts.google.com/specimen/Open+Sans), [Cantarrel](https://fonts.google.com/specimen/Cantarell)__  (copy to `~/.fonts`)
+Window borders: __[Afflatus](https://www.gnome-look.org/p/1191004/)__  (copy to `~/.gnome/themes`)
 Extension: __Custom Shadows__   
 
 MS fonts:
