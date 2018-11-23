@@ -64,6 +64,8 @@ sudo apt-get install ttf-mscorefonts-installer
 
 ## Additional software
 
+Note: make sure that if you add new items into "Startup applications", you set them at least 10-15s delay, as some applications won't start before the Cinnamon GUI and some of its deamons are fully loaded.
+
 #### Tilix (tiling terminal emulator)
 
 https://gnunn1.github.io/tilix-web/
