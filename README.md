@@ -173,6 +173,9 @@ sudo apt-get install vice
 ```
 Since the Debian distribution doesn't contains any ROMs, just download the Windows version from http://vice-emu.sourceforge.net/ and unpack the desired machine folder to ~/.vice
 
+#### Insomnia (REST client)
+
+https://support.insomnia.rest/article/23-installation#ubuntu
 
 ## LEMP/LAMP
 
