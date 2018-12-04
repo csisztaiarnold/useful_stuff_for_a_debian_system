@@ -177,6 +177,25 @@ Since the Debian distribution doesn't contains any ROMs, just download the Windo
 
 https://support.insomnia.rest/article/23-installation#ubuntu
 
+## Small hacks
+
+#### Fix the green antialias in Gimp
+
+Uninstall Gimp (just kidding).
+
+```
+sudo gedit /etc/gimp/2.0/fonts.conf
+```
+```
+<fontconfig>
+ <match target="font">
+  <edit name="rgba" mode="assign">
+   <const>none</const>
+  </edit>
+ </match>
+</fontconfig>
+```
+
 ## LEMP/LAMP
 
 ...todo
