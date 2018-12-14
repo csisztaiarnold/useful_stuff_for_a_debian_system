@@ -165,6 +165,12 @@ sudo apt-get install vlc
 ```
 sudo apt-get install deluge
 ```
+To set Deluge the default software for opening magnet links:
+
+```
+gvfs-mime --set x-scheme-handler/magnet deluge.desktop
+xdg-mime default deluge.desktop x-scheme-handler/magnet
+```
 
 #### VICE (Commodore emulator)
 
