@@ -132,6 +132,10 @@ sudo apt-get install fontconfig-infinality
 
 ## Non-essential, but useful software
 
+#### Node.js and npm
+
+https://linuxize.com/post/how-to-install-node-js-on-debian-9/
+
 #### WoeUSB (create your own usb stick Windows installer)
 
 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/w/woeusb/
