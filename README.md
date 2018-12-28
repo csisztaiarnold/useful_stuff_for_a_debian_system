@@ -187,6 +187,13 @@ Since the Debian distribution doesn't contains any ROMs, just download the Windo
 
 https://support.insomnia.rest/article/23-installation#ubuntu
 
+#### Kdenlive (non-linear video editor)
+
+https://kdenlive.org/en/
+```
+sudo apt-get install kdenlive
+```
+
 ## Small hacks
 
 #### Fix the green antialias in Gimp
