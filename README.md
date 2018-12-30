@@ -146,6 +146,11 @@ http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/w/woeusb/
 sudo apt-get install flameshot
 ```
 
+#### htop (interactive system-monitor)
+```
+sudo apt-get install htop
+```
+
 #### GParted (disk partitioning)
 
 ```
