@@ -194,6 +194,14 @@ https://kdenlive.org/en/
 sudo apt-get install kdenlive
 ```
 
+#### Wine32
+
+```
+echo -e "deb http://http.kali.org/kali sana main non-free contrib\ndeb http://security.kali.org/kali-security/ sana/updates main contrib non-free" > /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get install wine32
+```
+
 ## Small hacks
 
 #### Fix the green antialias in Gimp
