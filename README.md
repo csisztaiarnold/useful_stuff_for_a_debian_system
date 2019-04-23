@@ -169,6 +169,12 @@ sudo apt-get install kazam
 sudo apt-get install vlc
 ```
 
+#### OpenShot (video editor)
+
+```
+https://www.openshot.org/
+```
+
 #### Deluge (bittorrent client)
 
 ```
