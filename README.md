@@ -49,6 +49,24 @@ Edit `/etc/fstab`
 /dev/sdb2	/media/username/data	ext4	defaults	0	1
 ```
 
+## Global execution for scripts in Bash
+
+### Version 1
+
+`sudo cp myscript.sh /usr/local/bin`
+
+### Version 2
+
+Edit `~/.bashrc`
+
+Add
+```
+export PATH="$PATH:~/the/path/to/bin"
+```
+
+`source ~/.bashrc`
+
+
 ## GUI/Cinnamon stuff 
 
 Theme: __Adapta Nokto Eta__  
