@@ -1,4 +1,4 @@
-# Some useful stuff for a Debian 9 + Cinnamon system
+# Some useful stuff for a Debian 9 (or Debian 10) + Cinnamon system 
 
 ## Add your user to sudoers
 
@@ -94,6 +94,9 @@ sudo apt-get install mc
 
 https://gnunn1.github.io/tilix-web/
 
+#### Powerline Shell (a beautiful and useful prompt for your shell)
+
+https://github.com/b-ryan/powerline-shell
 
 #### Fancontrol (fan speed control)
 
