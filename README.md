@@ -84,6 +84,12 @@ sudo apt-get install ttf-mscorefonts-installer
 
 Note: make sure that if you add new items into "Startup applications", you set them at least 10-15s delay, as some applications won't start before the Cinnamon GUI and some of its deamons are fully loaded.
 
+#### SpaceFM (visual file manager)
+
+A feature-rich multi-panel tabbed file and desktop manager.
+
+https://github.com/IgnorantGuru/spacefm/wiki/Distros
+
 #### Midnight Commander (visual file manager)
 
 ```
