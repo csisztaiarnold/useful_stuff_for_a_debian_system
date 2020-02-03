@@ -39,7 +39,7 @@ deb-src http://ppa.launchpad.net/no1wantdthisname/ppa/ubuntu trusty main
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY
 sudo apt-get update
-```
+```https://github.com/csisztaiarnold/debian_9_useful/blob/master/README.mdvciv
 
 ## Mount a HD on boot
 
@@ -219,7 +219,7 @@ xdg-mime default deluge.desktop x-scheme-handler/magnet
 ```
 sudo apt-get install vice
 ```
-Since the Debian distribution doesn't contains any ROMs, just download the Windows version from http://vice-emu.sourceforge.net/ and unpack the desired machine folder to ~/.vice
+Since the Debian distribution doesn't contains any ROMs, just download the Windows version from http://vice-emu.sourceforge.net/ and unpack the desired machine folder to `~/.vice` or `/usr/lib/vice`
 
 #### Insomnia (REST client)
 
