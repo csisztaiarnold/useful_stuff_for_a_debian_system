@@ -39,7 +39,7 @@ deb-src http://ppa.launchpad.net/no1wantdthisname/ppa/ubuntu trusty main
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY
 sudo apt-get update
-```https://github.com/csisztaiarnold/debian_9_useful/blob/master/README.mdvciv
+```
 
 ## Mount a HD on boot
 
