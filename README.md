@@ -234,6 +234,13 @@ https://kdenlive.org/en/
 sudo apt-get install kdenlive
 ```
 
+#### Webcamoid (webcam suite)
+
+https://webcamoid.github.io/
+```
+sudo apt-get install webcamoid
+```
+
 #### Wine32
 
 ```
