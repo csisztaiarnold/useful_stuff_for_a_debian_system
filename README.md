@@ -1,6 +1,8 @@
-# Some useful stuff for a Debian 9 (or Debian 10) + Cinnamon system 
+# Some useful stuff for a ~~Debian 9~~ Debian 10 + Cinnamon system 
 
-## Add your user to sudoers
+**Note: most of this will probably work for Debian 9 as well, but don't rely on it.**
+
+## First of all, add your user to sudoers
 
 ```
 su
@@ -8,7 +10,7 @@ nano /etc/sudoers
 ```
 Add `ALL=(ALL:ALL) ALL` to your user.
 
-## Install CURL
+## Install CURL (you'll probably need it later)
 
 ```
 sudo apt-get install curl
@@ -24,20 +26,14 @@ sudo apt-get install dirmngr
 
 /etc/apt/sources.list
 
-Add `contrib` and `non-free`
+Add `contrib` and `non-free` to these lines:
 
 ```
-deb http://ftp.debian.org/debian stretch-backports main
-deb http://ppa.launchpad.net/atareao/telegram/ubuntu xenial main
-deb-src http://ppa.launchpad.net/atareao/telegram/ubuntu xenial main
-deb http://ppa.launchpad.net/no1wantdthisname/ppa/ubuntu trusty main
-deb-src http://ppa.launchpad.net/no1wantdthisname/ppa/ubuntu trusty main
+deb http://ftp.de.debian.org/debian/ buster main contrib non-free
+deb-src http://ftp.de.debian.org/debian/ buster main contrib non-free
 ```
-
-## Get the public keys in case they're missing after `sudo apt-get update`
-
+Update.
 ```
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY
 sudo apt-get update
 ```
 
@@ -63,11 +59,11 @@ Add
 ```
 export PATH="$PATH:~/the/path/to/bin"
 ```
-
+Refresh.
 `source ~/.bashrc`
 
 
-## GUI/Cinnamon stuff 
+## GUI/Cinnamon stuff (my personal preference)
 
 Theme: __Adapta Nokto Eta__  
 Icons: __[Paper](https://snwh.org/paper)__  
