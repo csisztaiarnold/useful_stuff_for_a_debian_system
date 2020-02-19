@@ -102,6 +102,18 @@ https://gnunn1.github.io/tilix-web/
 
 https://github.com/b-ryan/powerline-shell
 
+#### Infinality (improved font rendering)
+
+https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts
+
+```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E985B27B
+sudo apt-get update
+sudo apt-get install fontconfig-infinality
+```
+
+## Non-essential, but useful software
+
 #### Fancontrol (fan speed control)
 
 https://askubuntu.com/questions/22108/how-to-control-fan-speed
@@ -113,7 +125,6 @@ MAXTEMP=hwmon3/device/pwm2=70 hwmon1/device/pwm1=70
 MINSTART=hwmon3/device/pwm2=150 hwmon1/device/pwm1=50
 MINSTOP=hwmon3/device/pwm2=100 hwmon1/device/pwm1=40
 ```
-
 #### Telegram (messenger)
 
 ```
@@ -145,18 +156,6 @@ imwheel --kill --buttons "4 5"
 ```
 Don't forget to add it to the Startup Applications!
 
-#### Infinality (improved font rendering)
-
-https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts
-
-```
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E985B27B
-sudo apt-get update
-sudo apt-get install fontconfig-infinality
-```
-
-## Non-essential, but useful software
-
 #### Node.js and npm
 
 https://linuxize.com/post/how-to-install-node-js-on-debian-9/
@@ -172,6 +171,7 @@ sudo apt-get install flameshot
 ```
 
 #### htop (interactive system-monitor)
+
 ```
 sudo apt-get install htop
 ```
