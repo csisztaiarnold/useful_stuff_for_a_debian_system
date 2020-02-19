@@ -221,7 +221,7 @@ sudo apt-get install vice
 ```
 Since the Debian distribution doesn't contains any ROMs, just download the Windows version from http://vice-emu.sourceforge.net/ and unpack the desired machine folder to `~/.vice` or `/usr/lib/vice`
 
-You could attach [this Action Replay cartridge](action_replay_7.5.crt) file if your need it.
+You could attach [this Action Replay cartridge file](action_replay_7.5.crt) if your need it.
 
 #### Insomnia (REST client)
 
