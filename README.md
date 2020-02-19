@@ -1,6 +1,8 @@
 # Some useful stuff for a ~~Debian 9~~ Debian 10 + Cinnamon system 
 
-**Note: most of this will probably work for Debian 9 as well, but don't rely on it.**
+**Note: most of this will probably work for Debian 9 as well, but don't depend your life on it.**
+
+![Screenshot](debian_screenshot.png)
 
 ## First of all, add your user to sudoers
 
