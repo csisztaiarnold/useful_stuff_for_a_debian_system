@@ -116,6 +116,10 @@ sudo apt-get install fontconfig-infinality
 
 ## Non-essential, but useful software
 
+#### KeePassXC
+
+https://keepassxc.org/
+
 #### Fancontrol (fan speed control)
 
 https://askubuntu.com/questions/22108/how-to-control-fan-speed
