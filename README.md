@@ -120,6 +120,10 @@ sudo apt-get install fontconfig-infinality
 
 https://keepassxc.org/
 
+```
+sudo apt-get install keepassxc
+```
+
 #### Fancontrol (fan speed control)
 
 https://askubuntu.com/questions/22108/how-to-control-fan-speed
