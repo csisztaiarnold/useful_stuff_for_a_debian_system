@@ -67,12 +67,12 @@ Refresh.
 
 ## GUI/Cinnamon stuff (my personal preference)
 
-Theme: __Adapta Nokto Eta__ (System Settings > Themes > Desktop)
-Buttons: __Adwaita__ (System Settings > Themes > Buttons)
-Mouse Pointer: __Adwaita__ (System Settings > Themes > Mouse Pointer)
-Icons: __[Paper](https://snwh.org/paper)__  
-Fonts: __[Hack](https://github.com/source-foundry/Hack), [Roboto](https://fonts.google.com/specimen/Roboto), [Open Sans](https://fonts.google.com/specimen/Open+Sans), [Cantarrel](https://fonts.google.com/specimen/Cantarell), [Inter UI]( https://rsms.me/inter/)__ (copy to `~/.fonts`)  
-Window borders: __[Afflatus](https://www.gnome-look.org/p/1191004/)__  (copy to `~/.themes`)  
+Theme: __Adapta Nokto Eta__ (System Settings > Themes > Desktop)\
+Buttons: __Adwaita__ (System Settings > Themes > Buttons)\
+Icons: __[Paper](https://snwh.org/paper)__\
+Mouse Pointer: __Adwaita__ (System Settings > Themes > Mouse Pointer)\
+Fonts: __[Hack](https://github.com/source-foundry/Hack), [Roboto](https://fonts.google.com/specimen/Roboto), [Open Sans](https://fonts.google.com/specimen/Open+Sans), [Cantarrel](https://fonts.google.com/specimen/Cantarell), [Inter UI]( https://rsms.me/inter/)__ (copy to `~/.fonts`)\
+Window borders: __[Afflatus](https://www.gnome-look.org/p/1191004/)__  (copy to `~/.themes`)\
 Extension: __Custom Shadows__ (doesn't work on newer versions of Cinnamon, however, I've made it work once, so I'll get back to it later)
 
 MS fonts:
