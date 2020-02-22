@@ -18,6 +18,12 @@ Add `ALL=(ALL:ALL) ALL` to your user.
 sudo apt-get install curl
 ```
 
+## Install Wget (software package for retrieving files)
+
+```
+sudo apt-get install wget
+```
+
 ## Install dirmngr (network certificate management service)
 
 ```
@@ -75,14 +81,32 @@ Fonts: __[Hack](https://github.com/source-foundry/Hack), [Roboto](https://fonts.
 Window borders: __[Afflatus](https://www.gnome-look.org/p/1191004/)__  (copy to `~/.themes`)\
 Extension: __Custom Shadows__ (doesn't work on newer versions of Cinnamon, however, I've made it work once, so I'll get back to it later)
 
+Ubuntu fonts:
+
+```
+wget http://mirrors.kernel.org/ubuntu/pool/main/u/ubuntu-font-family-sources/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
+sudo dpkg -i ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
+```
+
 MS fonts:
 ```
 sudo apt-get install ttf-mscorefonts-installer
 ```
 
+Gnome Tweak Tools:
+```
+sudo apt-get install gnome-tweak-tool
+```
+
 ## Essential software
 
 Note: make sure that if you add new items into "Startup applications", you set them at least 10-15s delay, as some applications won't start before the Cinnamon GUI and some of its deamons are fully loaded.
+
+#### Git (version-control system)
+
+```
+sudo apt-get install git
+```
 
 #### SpaceFM (visual file manager)
 
