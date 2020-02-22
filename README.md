@@ -156,6 +156,10 @@ https://keepassxc.org/
 sudo apt-get install keepassxc
 ```
 
+#### XnView (photo viewer)
+
+https://www.xnview.com/en/xnviewmp
+
 #### Fancontrol (fan speed control)
 
 https://askubuntu.com/questions/22108/how-to-control-fan-speed
