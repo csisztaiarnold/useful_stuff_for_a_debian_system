@@ -90,6 +90,10 @@ A feature-rich multi-panel tabbed file and desktop manager.
 
 https://github.com/IgnorantGuru/spacefm/wiki/Distros
 
+```
+sudo apt-get install curl
+```
+
 #### Midnight Commander (visual file manager)
 
 ```
@@ -99,6 +103,10 @@ sudo apt-get install mc
 #### Tilix (tiling terminal emulator)
 
 https://gnunn1.github.io/tilix-web/
+
+```
+sudo apt-get install tilix
+```
 
 #### Powerline Shell (a beautiful and useful prompt for your shell)
 
