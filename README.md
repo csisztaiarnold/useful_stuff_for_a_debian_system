@@ -115,7 +115,7 @@ A feature-rich multi-panel tabbed file and desktop manager.
 https://github.com/IgnorantGuru/spacefm/wiki/Distros
 
 ```
-sudo apt-get install curl
+sudo apt-get install spacefm udevil
 ```
 
 #### Midnight Commander (visual file manager)
