@@ -246,27 +246,10 @@ sudo apt-get install vlc
 https://www.openshot.org/
 ```
 
-#### Deluge (bittorrent client)
+#### qBittorrent (bittorrent client)
 
 ```
-sudo apt-get install deluge
-```
-To set Deluge the default software for opening magnet links:
-
-Debian 9:
-
-```
-gvfs-mime --set x-scheme-handler/magnet deluge.desktop
-```
-
-Debian 10:
-
-```
-gio mime x-scheme-handler/magnet deluge.desktop
-```
-
-```
-xdg-mime default deluge.desktop x-scheme-handler/magnet
+sudo apt-get install qbittorrent
 ```
 
 #### VICE (Commodore emulator)
