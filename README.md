@@ -177,6 +177,10 @@ MINSTOP=hwmon3/device/pwm2=100 hwmon1/device/pwm1=40
 sudo apt-get install telegram-desktop
 ```
 
+#### Simplenote (note taking app)
+
+https://github.com/Automattic/simplenote-electron
+
 #### Imwheel (improved mouse-wheel control)
 
 ```
