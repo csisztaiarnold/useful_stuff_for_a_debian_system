@@ -310,7 +310,7 @@ sudo gedit /etc/gimp/2.0/fonts.conf
 </fontconfig>
 ```
 
-## Useful commands
+## General useful commands in Linux
 
 #### List installed packages
 
