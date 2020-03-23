@@ -309,3 +309,27 @@ sudo gedit /etc/gimp/2.0/fonts.conf
  </match>
 </fontconfig>
 ```
+
+## Useful commands
+
+#### List installed packages
+
+```
+ apt list --installed
+ dpkg-query -l
+```
+
+#### Create a file of a specific size
+
+This will create a file with 10-megabyte size filled with zeros.
+
+```
+dd if=/dev/zero of=out.txt bs=1M count=10
+```
+
+#### Copy files from via SSH
+
+It's possible that `scp` needs to be installed first with `sudo apt-get install scp`.
+```
+scp username@source.server:source_file target_file
+```
