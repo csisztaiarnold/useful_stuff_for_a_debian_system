@@ -333,3 +333,9 @@ It's possible that `scp` needs to be installed first with `sudo apt-get install 
 ```
 scp username@source.server:source_file target_file
 ```
+
+#### Watch logs in real-time
+
+```
+sudo watch tail /var/log/auth.log
+```
