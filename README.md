@@ -293,9 +293,7 @@ sudo apt-get install wine32
 
 ## Small hacks
 
-#### Fix the green antialias in Gimp
-
-Uninstall Gimp (just kidding).
+#### How to fix the green antialias in Gimp
 
 ```
 sudo gedit /etc/gimp/2.0/fonts.conf
