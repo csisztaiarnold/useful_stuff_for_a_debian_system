@@ -1,4 +1,4 @@
-# Some useful stuff for a ~~Debian 9~~ Debian 10 + Cinnamon system 
+# Some useful stuff for a Debian ~~9~~ 10 + Cinnamon system 
 
 **Note: most of this will probably work for Debian 9 as well, but don't depend your life on it.**
 
@@ -336,4 +336,12 @@ scp username@source.server:source_file target_file
 
 ```
 sudo watch tail /var/log/auth.log
+```
+
+## Updating/upgrading
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
 ```
