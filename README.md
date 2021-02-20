@@ -4,6 +4,29 @@
 
 ![Screenshot](debian_screenshot.png)
 
+```
+       _,met$$$$$gg.          arnold@endurance 
+    ,g$$$$$$$$$$$$$$$P.       ---------------- 
+  ,g$$P"     """Y$$.".        OS: Debian GNU/Linux 10 (buster) x86_64 
+ ,$$P'              `$$$.     Host: Precision 7530 
+',$$P       ,ggs.     `$$b:   Kernel: 4.19.0-14-amd64 
+`d$$'     ,$P"'   .    $$$    Uptime: 1 day, 15 hours, 34 mins 
+ $$P      d$'     ,    $$P    Packages: 2680 (dpkg) 
+ $$:      $$.   -    ,d$$'    Shell: bash 5.0.3 
+ $$;      Y$b._   _,d$P'      Resolution: 1920x1080, 1920x1080 
+ Y$$.    `.`"Y$$$$P"'         DE: Cinnamon 3.8.8 
+ `$$b      "-.__              WM: Mutter (Muffin) 
+  `Y$$                        WM Theme: Adapta-Nokto (afflatus-master) 
+   `Y$$.                      Theme: Adwaita [GTK2/3] 
+     `$$b.                    Icons: Paper [GTK2/3] 
+       `Y$$b.                 Terminal: tilix 
+          `"Y$b._             CPU: Intel i7-8750H (12) @ 2.200GHz 
+              `"""            GPU: Intel UHD Graphics 630 
+                              Memory: 4567MiB / 31929MiB 
+
+                                                      
+```
+
 ## First of all, add your user to sudoers
 
 ```
