@@ -22,9 +22,7 @@
        `Y$$b.                 Terminal: tilix 
           `"Y$b._             CPU: Intel i7-8750H (12) @ 2.200GHz 
               `"""            GPU: Intel UHD Graphics 630 
-                              Memory: 4567MiB / 31929MiB 
-
-                                                      
+                              Memory: 4567MiB / 31929MiB                                                      
 ```
 
 ## First of all, add your user to sudoers
