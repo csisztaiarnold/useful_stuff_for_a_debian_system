@@ -74,6 +74,14 @@ Edit `/etc/fstab`
 /dev/sdb2	/media/username/data	ext4	defaults	0	1
 ```
 
+## Bash Addons
+
+### Bashmarks
+https://github.com/huyng/bashmarks
+
+### Bash Git Prompt
+https://github.com/magicmonty/bash-git-prompt
+
 ## Global execution for scripts in Bash
 
 ### Version 1
