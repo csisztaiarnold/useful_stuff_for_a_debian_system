@@ -74,6 +74,12 @@ Edit `/etc/fstab`
 /dev/sdb2	/media/username/data	ext4	defaults	0	1
 ```
 
+## Have a Snap application to appear in the start menu
+
+```
+cp /var/lib/snapd/desktop/applications/application_name.desktop ~/.local/share/applications/
+```
+
 ## Bash Addons
 
 ### Bashmarks
