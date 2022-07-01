@@ -245,6 +245,12 @@ Don't forget to add it to the Startup Applications!
 
 https://linuxize.com/post/how-to-install-node-js-on-debian-9/
 
+#### GNOME MultiWriter (can be used to write an ISO file to multiple USB devices at once)
+
+```
+sudo apt install gnome-multi-writer
+```
+
 #### WoeUSB (create your own usb stick Windows installer)
 
 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/w/woeusb/
